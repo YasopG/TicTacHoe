@@ -16,14 +16,11 @@ namespace TicTacHoe
             int w = this.ClientSize.Width;
             int h = this.ClientSize.Height;
 
-            int x1; int y1;
-            int x2; int y2;
 
-            g.DrawLine(stiffy, x1 = 0, y1 = 200, x2 = 650, y2 = 200);
-            g.DrawLine(stiffy, x1 = 0, y1 = 400, x2 = 650, y2 = 400);
-            g.DrawLine(stiffy, x1 = 220, y1 = 000, x2 = 220, y2 = 600);
-            g.DrawLine(stiffy, x1 = 42 y1 = 000, x2 = 425, y2 = 600);
+        }
 
+        private void feld1_Load(object sender, EventArgs e)
+        {
 
         }
     }
