@@ -35,17 +35,21 @@
             // 
             lbl_field.Location = new Point(0, 0);
             lbl_field.Name = "lbl_field";
-            lbl_field.Size = new Size(150, 150);
+            lbl_field.Size = new Size(171, 200);
             lbl_field.TabIndex = 0;
+            lbl_field.Text = "-";
+            lbl_field.TextAlign = ContentAlignment.MiddleCenter;
             lbl_field.Click += lbl_field_Click;
             // 
             // feld
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.ScrollBar;
             Controls.Add(lbl_field);
+            Margin = new Padding(3, 4, 3, 4);
             Name = "feld";
+            Size = new Size(171, 200);
             Load += feld_Load;
             BackColorChanged += feld_Load;
             ResumeLayout(false);

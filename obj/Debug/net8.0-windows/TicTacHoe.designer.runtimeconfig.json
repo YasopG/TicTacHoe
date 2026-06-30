@@ -12,13 +12,11 @@
       }
     ],
     "additionalProbingPaths": [
-      "C:\\Users\\yashraj.s\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\yashraj.s\\.nuget\\packages",
-      "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      "C:\\Users\\yashr\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\yashr\\.nuget\\packages"
     ],
     "configProperties": {
       "System.Runtime.Serialization.EnableUnsafeBinaryFormatterSerialization": true,
-      "CSWINRT_USE_WINDOWS_UI_XAML_PROJECTIONS": false,
       "Microsoft.NETCore.DotNetHostPolicy.SetAppPaths": true
     }
   }
