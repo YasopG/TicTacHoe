@@ -29,106 +29,115 @@
         private void InitializeComponent()
         {
             feld1 = new feld();
+            feld22 = new feld();
+            feld222 = new feld();
+            feld111 = new feld();
             feld2 = new feld();
+            feld11 = new feld();
             feld3 = new feld();
-            feld4 = new feld();
-            feld5 = new feld();
-            feld6 = new feld();
-            feld7 = new feld();
-            feld8 = new feld();
-            feld9 = new feld();
+            feld333 = new feld();
+            feld33 = new feld();
             SuspendLayout();
             // 
             // feld1
             // 
             feld1.BackColor = SystemColors.ButtonShadow;
-            feld1.Location = new Point(24, 22);
+            feld1.Location = new Point(27, 29);
+            feld1.Margin = new Padding(3, 5, 3, 5);
             feld1.Name = "feld1";
-            feld1.Size = new Size(161, 162);
+            feld1.Size = new Size(184, 216);
             feld1.TabIndex = 0;
             feld1.Load += feld1_Load;
+            // 
+            // feld22
+            // 
+            feld22.BackColor = SystemColors.ButtonShadow;
+            feld22.Location = new Point(241, 267);
+            feld22.Margin = new Padding(3, 5, 3, 5);
+            feld22.Name = "feld22";
+            feld22.Size = new Size(184, 216);
+            feld22.TabIndex = 1;
+            // 
+            // feld222
+            // 
+            feld222.BackColor = SystemColors.ButtonShadow;
+            feld222.Location = new Point(449, 267);
+            feld222.Margin = new Padding(3, 5, 3, 5);
+            feld222.Name = "feld222";
+            feld222.Size = new Size(184, 216);
+            feld222.TabIndex = 2;
+            // 
+            // feld111
+            // 
+            feld111.BackColor = SystemColors.ButtonShadow;
+            feld111.Location = new Point(449, 29);
+            feld111.Margin = new Padding(3, 5, 3, 5);
+            feld111.Name = "feld111";
+            feld111.Size = new Size(184, 216);
+            feld111.TabIndex = 3;
             // 
             // feld2
             // 
             feld2.BackColor = SystemColors.ButtonShadow;
-            feld2.Location = new Point(211, 200);
+            feld2.Location = new Point(27, 267);
+            feld2.Margin = new Padding(3, 5, 3, 5);
             feld2.Name = "feld2";
-            feld2.Size = new Size(161, 162);
-            feld2.TabIndex = 1;
+            feld2.Size = new Size(184, 216);
+            feld2.TabIndex = 4;
+            // 
+            // feld11
+            // 
+            feld11.BackColor = SystemColors.ButtonShadow;
+            feld11.Location = new Point(241, 29);
+            feld11.Margin = new Padding(3, 5, 3, 5);
+            feld11.Name = "feld11";
+            feld11.Size = new Size(184, 216);
+            feld11.TabIndex = 5;
             // 
             // feld3
             // 
             feld3.BackColor = SystemColors.ButtonShadow;
-            feld3.Location = new Point(393, 200);
+            feld3.Location = new Point(27, 505);
+            feld3.Margin = new Padding(3, 5, 3, 5);
             feld3.Name = "feld3";
-            feld3.Size = new Size(161, 162);
-            feld3.TabIndex = 2;
+            feld3.Size = new Size(184, 216);
+            feld3.TabIndex = 8;
             // 
-            // feld4
+            // feld333
             // 
-            feld4.BackColor = SystemColors.ButtonShadow;
-            feld4.Location = new Point(393, 22);
-            feld4.Name = "feld4";
-            feld4.Size = new Size(161, 162);
-            feld4.TabIndex = 3;
+            feld333.BackColor = SystemColors.ButtonShadow;
+            feld333.Location = new Point(449, 505);
+            feld333.Margin = new Padding(3, 5, 3, 5);
+            feld333.Name = "feld333";
+            feld333.Size = new Size(184, 216);
+            feld333.TabIndex = 7;
             // 
-            // feld5
+            // feld33
             // 
-            feld5.BackColor = SystemColors.ButtonShadow;
-            feld5.Location = new Point(24, 200);
-            feld5.Name = "feld5";
-            feld5.Size = new Size(161, 162);
-            feld5.TabIndex = 4;
-            // 
-            // feld6
-            // 
-            feld6.BackColor = SystemColors.ButtonShadow;
-            feld6.Location = new Point(211, 22);
-            feld6.Name = "feld6";
-            feld6.Size = new Size(161, 162);
-            feld6.TabIndex = 5;
-            // 
-            // feld7
-            // 
-            feld7.BackColor = SystemColors.ButtonShadow;
-            feld7.Location = new Point(24, 379);
-            feld7.Name = "feld7";
-            feld7.Size = new Size(161, 162);
-            feld7.TabIndex = 8;
-            // 
-            // feld8
-            // 
-            feld8.BackColor = SystemColors.ButtonShadow;
-            feld8.Location = new Point(393, 379);
-            feld8.Name = "feld8";
-            feld8.Size = new Size(161, 162);
-            feld8.TabIndex = 7;
-            // 
-            // feld9
-            // 
-            feld9.BackColor = SystemColors.ButtonShadow;
-            feld9.Location = new Point(211, 379);
-            feld9.Name = "feld9";
-            feld9.Size = new Size(161, 162);
-            feld9.TabIndex = 6;
+            feld33.BackColor = SystemColors.ButtonShadow;
+            feld33.Location = new Point(241, 505);
+            feld33.Margin = new Padding(3, 5, 3, 5);
+            feld33.Name = "feld33";
+            feld33.Size = new Size(184, 216);
+            feld33.TabIndex = 6;
             // 
             // Form1
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(584, 561);
-            Controls.Add(feld7);
-            Controls.Add(feld8);
-            Controls.Add(feld9);
-            Controls.Add(feld6);
-            Controls.Add(feld5);
-            Controls.Add(feld4);
+            ClientSize = new Size(667, 748);
             Controls.Add(feld3);
+            Controls.Add(feld333);
+            Controls.Add(feld33);
+            Controls.Add(feld11);
             Controls.Add(feld2);
+            Controls.Add(feld111);
+            Controls.Add(feld222);
+            Controls.Add(feld22);
             Controls.Add(feld1);
-            Margin = new Padding(3, 2, 3, 2);
             Name = "Form1";
             Text = "Form1";
+            Load += Form1_Load;
             Paint += Form1_Paint;
             ResumeLayout(false);
         }
@@ -136,13 +145,13 @@
         #endregion
 
         private feld feld1;
+        private feld feld22;
+        private feld feld222;
+        private feld feld111;
         private feld feld2;
+        private feld feld11;
         private feld feld3;
-        private feld feld4;
-        private feld feld5;
-        private feld feld6;
-        private feld feld7;
-        private feld feld8;
-        private feld feld9;
+        private feld feld333;
+        private feld feld33;
     }
 }

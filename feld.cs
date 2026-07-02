@@ -12,15 +12,22 @@ namespace TicTacHoe
 {
     public partial class feld : UserControl
     {
+        public string value = "-";
         // Damit das Formular später einfach "meinFeld.FieldText" abfragen kann
         public string FieldText
         {
             get { return lbl_field.Text; }
         }
+        public string Value
+        {
+            get { return value; }
+        }
+
         static bool sX = true;
         public feld()
         {
             InitializeComponent();
+            lbl_field.Text = "-";
         }
 
         private void feld_Load(object sender, EventArgs e)
@@ -45,15 +52,12 @@ namespace TicTacHoe
                 //nach jedem Zug wechseln
                 sX = !sX;
 
-                if (this.Parent is Form1 hauptForm)
-                {
-                    hauptForm.CheckForWinner();
-                }
-
-
+                Form1.CheckWinner();
+                { }
             }
-
+            
         }
+        
         public void ClearField()
         {
             lbl_field.Text = "-"; // Setzt den Text wieder auf den Startwert zurück
