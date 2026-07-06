@@ -34,3 +34,21 @@ C:\Users\yashr\source\repos\TicTacHoe\obj\Debug\net8.0-windows\refint\TicTacHoe.
 C:\Users\yashr\source\repos\TicTacHoe\obj\Debug\net8.0-windows\TicTacHoe.pdb
 C:\Users\yashr\source\repos\TicTacHoe\obj\Debug\net8.0-windows\TicTacHoe.genruntimeconfig.cache
 C:\Users\yashr\source\repos\TicTacHoe\obj\Debug\net8.0-windows\ref\TicTacHoe.dll
+C:\Users\s.lewin\OneDrive - Georg-Simon-Ohm Berufskolleg\Desktop\IAH41\TicTacHoe\obj\Debug\net8.0-windows\TicTacHoe.feld.resources
+C:\Users\s.lewin\OneDrive - Georg-Simon-Ohm Berufskolleg\Desktop\IAH41\TicTacHoe\obj\Debug\net8.0-windows\TicTacHoe.Form1.resources
+C:\Users\s.lewin\OneDrive - Georg-Simon-Ohm Berufskolleg\Desktop\IAH41\TicTacHoe\obj\Debug\net8.0-windows\TicTacHoe.csproj.GenerateResource.cache
+C:\Users\s.lewin\OneDrive - Georg-Simon-Ohm Berufskolleg\Desktop\IAH41\TicTacHoe\obj\Debug\net8.0-windows\TicTacHoe.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\s.lewin\OneDrive - Georg-Simon-Ohm Berufskolleg\Desktop\IAH41\TicTacHoe\obj\Debug\net8.0-windows\TicTacHoe.AssemblyInfoInputs.cache
+C:\Users\s.lewin\OneDrive - Georg-Simon-Ohm Berufskolleg\Desktop\IAH41\TicTacHoe\obj\Debug\net8.0-windows\TicTacHoe.AssemblyInfo.cs
+C:\Users\s.lewin\OneDrive - Georg-Simon-Ohm Berufskolleg\Desktop\IAH41\TicTacHoe\obj\Debug\net8.0-windows\TicTacHoe.csproj.CoreCompileInputs.cache
+C:\Users\s.lewin\OneDrive - Georg-Simon-Ohm Berufskolleg\Desktop\IAH41\TicTacHoe\obj\Debug\net8.0-windows\TicTacHoe.sourcelink.json
+C:\Users\s.lewin\OneDrive - Georg-Simon-Ohm Berufskolleg\Desktop\IAH41\TicTacHoe\obj\Debug\net8.0-windows\TicTacHoe.dll
+C:\Users\s.lewin\OneDrive - Georg-Simon-Ohm Berufskolleg\Desktop\IAH41\TicTacHoe\obj\Debug\net8.0-windows\refint\TicTacHoe.dll
+C:\Users\s.lewin\OneDrive - Georg-Simon-Ohm Berufskolleg\Desktop\IAH41\TicTacHoe\obj\Debug\net8.0-windows\TicTacHoe.pdb
+C:\Users\s.lewin\OneDrive - Georg-Simon-Ohm Berufskolleg\Desktop\IAH41\TicTacHoe\bin\Debug\net8.0-windows\TicTacHoe.exe
+C:\Users\s.lewin\OneDrive - Georg-Simon-Ohm Berufskolleg\Desktop\IAH41\TicTacHoe\bin\Debug\net8.0-windows\TicTacHoe.deps.json
+C:\Users\s.lewin\OneDrive - Georg-Simon-Ohm Berufskolleg\Desktop\IAH41\TicTacHoe\bin\Debug\net8.0-windows\TicTacHoe.runtimeconfig.json
+C:\Users\s.lewin\OneDrive - Georg-Simon-Ohm Berufskolleg\Desktop\IAH41\TicTacHoe\bin\Debug\net8.0-windows\TicTacHoe.dll
+C:\Users\s.lewin\OneDrive - Georg-Simon-Ohm Berufskolleg\Desktop\IAH41\TicTacHoe\bin\Debug\net8.0-windows\TicTacHoe.pdb
+C:\Users\s.lewin\OneDrive - Georg-Simon-Ohm Berufskolleg\Desktop\IAH41\TicTacHoe\obj\Debug\net8.0-windows\TicTacHoe.genruntimeconfig.cache
+C:\Users\s.lewin\OneDrive - Georg-Simon-Ohm Berufskolleg\Desktop\IAH41\TicTacHoe\obj\Debug\net8.0-windows\ref\TicTacHoe.dll

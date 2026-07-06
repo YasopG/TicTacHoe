@@ -10,36 +10,38 @@ using System.Windows.Forms;
 
 namespace TicTacHoe
 {
+
     public partial class feld : UserControl
     {
+        // Aktueller Inhalt des Feldes
         public string value = "-";
-        // Damit das Formular später einfach "meinFeld.FieldText" abfragen kann
+
+        // Gibt den Text des Labels zurück
         public string FieldText
         {
             get { return lbl_field.Text; }
         }
+
+        // Ermöglicht das Auslesen des Feldinhalts aus Form1
         public string Value
         {
-            get { return value; }
+            get { return lbl_field.Text; }
         }
 
+        // Speichert, welcher Spieler als Nächstes dran ist
         static bool sX = true;
+
         public feld()
         {
             InitializeComponent();
             lbl_field.Text = "-";
         }
 
-        private void feld_Load(object sender, EventArgs e)
-        {
-          
-        }
-
         private void lbl_field_Click(object sender, EventArgs e)
         {
-            if (lbl_field.Text == "-") // nur einmal beschreibbar
+            // Ein Feld darf nur einmal beschrieben werden
+            if (lbl_field.Text == "-")
             {
-
                 if (sX)
                 {
                     lbl_field.Text = "X";
@@ -49,18 +51,26 @@ namespace TicTacHoe
                     lbl_field.Text = "O";
                 }
 
-                //nach jedem Zug wechseln
+                // Spieler wechseln
                 sX = !sX;
 
-                Form1.CheckWinner();
-                { }
+                // Das Formular finden, auf dem das Feld liegt
+                Form aktuellesFormular = this.FindForm();
+
+                // Aktuelles Formular ist vom Typ "Form", unseres ist vom Typ "Form1", daher müssen wir es umwandeln
+                // Von Form zu Form1 umwandeln
+                Form1 spielFormular = (Form1)aktuellesFormular;
+
+                // Gewinnbedingungen prüfen
+                spielFormular.CheckWinner();
             }
-            
         }
-        
+
         public void ClearField()
         {
-            lbl_field.Text = "-"; // Setzt den Text wieder auf den Startwert zurück
+            // Feld zurücksetzen
+            lbl_field.Text = "-";
         }
     }
+
 }

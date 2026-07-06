@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "KyQsIe0lUDE=",
+  "dgSpecHash": "REkajYdXsjE=",
   "success": true,
-  "projectFilePath": "C:\\Users\\yashr\\source\\repos\\TicTacHoe\\TicTacHoe.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\s.lewin\\OneDrive - Georg-Simon-Ohm Berufskolleg\\Desktop\\IAH41\\TicTacHoe\\TicTacHoe.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\s.lewin\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.25\\microsoft.windowsdesktop.app.ref.8.0.25.nupkg.sha512",
+    "C:\\Users\\s.lewin\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.25\\microsoft.netcore.app.ref.8.0.25.nupkg.sha512",
+    "C:\\Users\\s.lewin\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.25\\microsoft.aspnetcore.app.ref.8.0.25.nupkg.sha512",
+    "C:\\Users\\s.lewin\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\8.0.25\\microsoft.netcore.app.host.win-x64.8.0.25.nupkg.sha512"
+  ],
   "logs": []
 }

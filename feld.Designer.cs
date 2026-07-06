@@ -50,8 +50,6 @@
             Margin = new Padding(3, 4, 3, 4);
             Name = "feld";
             Size = new Size(171, 200);
-            Load += feld_Load;
-            BackColorChanged += feld_Load;
             ResumeLayout(false);
         }
 
